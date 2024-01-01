@@ -1,0 +1,30 @@
+.container{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 15px 10px;
+}
+
+.title{
+    font-size: 16px;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+}
+
+.tiktok{
+    background-color: white;
+}
+
+@media screen and (max-width:640px) {
+    .container{
+        flex-direction: column;
+    }
+    .links{
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+  }

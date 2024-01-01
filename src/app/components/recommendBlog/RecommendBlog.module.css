@@ -1,0 +1,122 @@
+.container{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+}
+
+.hypercar{
+    background-color: var(--bgSoft);
+}
+
+.recommendBlog{
+    flex: 2;
+}
+
+/*  */
+
+.wrapper{
+    width: 80%;
+    background-color: white;
+    margin: 10px auto;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid black;
+    overflow: hidden;
+    box-shadow: 5px 5px gray;
+}
+
+.wrapper:hover{
+    background-color: rgb(208, 208, 208);
+}
+
+.blog{
+    padding: 10px;
+}
+
+.textRecommend{
+    position: relative;
+    font-size: 20px;
+    color: red;
+}
+
+.bodyBlog{
+    display: flex;
+    overflow: hidden;
+}
+
+.imageBody{
+    flex: 1;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.imagePreview{
+    border-radius: 20px;
+    object-fit: contain;
+}
+
+.btnPreview{
+    border: 1px solid red;
+    background-color: red;
+    max-width: fit-content;
+    border-radius: 10px;
+    padding: 2px 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.textBody{
+    flex: 2;
+    padding: 0px 10px;
+}
+
+.topic{
+    color: black;
+    font-weight: bold;
+}
+
+.author , .date{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 5px 0px;
+}
+
+.imageAuthor{
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
+.content{
+    font-size: 15px;
+}
+
+@media screen and (max-width:1280px) {
+    .container{
+        height: 450px;
+    }
+    .bodyBlog{
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .container{
+        height: 500px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .container{
+        height: fit-content;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,23 @@
+.container{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px 10px;
+    border-bottom: 2px solid red;
+}
+
+.links{
+    display: flex;
+    gap: 25px;
+}
+
+.link:hover{
+    color: red;
+}
+
+@media screen and (max-width:768px) {
+    .link{
+      display: none;
+    }
+  }

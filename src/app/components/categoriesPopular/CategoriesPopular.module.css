@@ -1,0 +1,41 @@
+.topicCate{
+    color:black;
+    font-size: 25px;
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.category{
+    text-align: center;
+    font-weight: 500;
+    width: 40%;
+    border-radius: 30px;
+    padding: 5px 3px;
+    background-color: blue;
+    box-shadow: 2px 2px gray;
+} 
+
+.category:hover{
+    background-color: rgb(35, 35, 70);
+}
+
+@media screen and (max-width:650px) {
+    .container{
+        height: fit-content;
+        flex-direction: column;
+    }
+    .categoriesPop{
+        border-top: 1px solid black;
+        border-left: none;
+        margin-top: 5px;
+    }
+    .topicCate{
+        font-size: 20px;
+    }
+}

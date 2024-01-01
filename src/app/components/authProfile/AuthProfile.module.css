@@ -1,0 +1,48 @@
+.burger{
+    width: 20px;
+    height: 16px;
+    flex-direction: column;
+    display: none;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+.openMenu{
+    position: absolute; 
+    top: 10%;    
+    right: 40px;
+    left: 40px;
+    background-color: var(--bgSoft);
+    height: 300px;
+    color: var(--textColor);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    font-size: 24px;
+    z-index: 99;
+    border: 1px solid;
+}
+
+.link:hover{
+    color: red;
+}
+
+@media screen and (max-width:768px) {
+    .links{
+        display: none;
+    }
+    .burger{
+      display: flex;
+    }
+    .openMenu{
+        display: flex;
+    }
+  }
