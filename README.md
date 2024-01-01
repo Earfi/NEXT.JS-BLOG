@@ -1,3 +1,7 @@
+## Figma Design
+
+https://www.figma.com/file/QIjXsh658e5AFFEC1T7ubk/Blog-Design?type=design&node-id=1669-162202&mode=design&t=8DCFYU02Up3tvjN6-0
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
