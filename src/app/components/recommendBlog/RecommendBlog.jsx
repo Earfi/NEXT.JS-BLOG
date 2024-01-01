@@ -35,7 +35,7 @@ const RecommendBlog = () => {
                 </div>
                 <div className={styles.date}>
                   <p>22/06/2555</p>
-                  <p>ถูกใจ &#9885; 254 ครั้ง</p>
+                  <p>ถูกใจ &#9885; <b className={styles.numWatch}>254</b> ครั้ง</p>
                 </div>
                 <hr />
                 <p className={styles.content}>

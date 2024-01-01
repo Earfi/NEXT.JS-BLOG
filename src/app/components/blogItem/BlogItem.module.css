@@ -1,16 +1,17 @@
 .bodyBlog:hover{
-    background-color: rgb(208, 208, 208);
+    background-color: rgb(65, 65, 65);
 }
 
 .bodyBlog{
     display: flex;
-    background-color: white;
-    color: black;
+    background-color: var(--bg);
+    color: var(--bgSofttextColor);
     overflow: hidden;
     border-radius: 20px;
     border: 1px solid black;
     box-shadow: 5px 5px gray;
     height: 200px;
+    width: 500px;
 }
 
 .imageBody{
@@ -46,8 +47,8 @@
 }
 
 .topic{
-    color: black;
     font-weight: bold;
+    font-size: 20px;
 }
 
 .author , .date{
@@ -64,21 +65,25 @@
 }
 
 .content{
-    font-size: 15px;
+    font-size: 12px;
 } 
+
+.numWatch{
+    color: var(--textLink);
+}
 
 @media screen and (max-width:1024px) {
     .imageBody{
         display: none;
     }
-    .bodyBlog{
-        height: fit-content;
+    .bodyBlog{ 
+        width: 300px;
     }
 }
 
-/* 
-@media screen and (max-width:780px) {
-    .bodyBlog{
-        flex-direction: column-reverse;
+
+@media screen and (max-width:500px) {
+    .bodyBlog{ 
+        width: 250px;
     } 
-} */
+}

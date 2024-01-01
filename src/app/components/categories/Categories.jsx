@@ -5,7 +5,7 @@ import Link from 'next/link'
 const Categories = () => {
   return (
     <div className={styles.container}>
-      <div className={styles.topic}>Categories</div>
+      <div className={styles.topic}><b>Categories</b></div>
       <div className={styles.categories}>
           <Link href="/blog" className={`${styles.category} ${styles.red}`}>Hypercar</Link>
           <Link href="/blog" className={`${styles.category} ${styles.blue}`}>Supercar</Link>

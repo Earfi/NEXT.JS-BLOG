@@ -2,4 +2,10 @@
     border-radius: 10px;
     cursor: pointer;
     padding: 0px 5px;
+    background-color: white;
+}
+
+.text{
+    color: black;
+    font-weight: bold;
 }
